@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "AgroData",
+    "slug": "agrodata",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "isIosBackgroundLocationEnabled": true,
+          "locationAlwaysAndWhenInUsePermission": "Permitir que AgroData use tu ubicación."
+        }
+      ]
+    ]
+  }
+}
